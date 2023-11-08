@@ -33,8 +33,7 @@ Libraries in use:
 2. Activate the [Ovulation Calculator](https://www.calculator.io/ovulation-calculator/ "Ovulation Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 == Usage ==
-* Add the shortcode `[ci_ovulation_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Ovulation Calculator to the sidebar through the `Appearance -> Widgets -> Ovulation Calculator` menu in WordPress.
+* Add the shortcode `[ci_ovulation_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_ovulation_calculator(); ?>` to your template where you would like the Ovulation Calculator to appear.
 
 == Screenshots ==
