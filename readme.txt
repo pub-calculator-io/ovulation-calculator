@@ -13,6 +13,8 @@ Not sure when you’re ovulating? Use this free ovulation calculator to estimate
 
 Not sure when you’re ovulating? Use this free ovulation calculator to estimate your most fertile days and know when you are most likely to conceive.
 
+[Ovulation Calculator Homepage](https://www.calculator.io/ovulation-calculator/ "Ovulation Calculator Homepage")
+
 __Shortcode__
 
 Use the Ovulation Calculator shortcode:
