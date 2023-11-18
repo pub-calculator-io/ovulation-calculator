@@ -1,4 +1,4 @@
-# Ovulation Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Ovulation Calculator Widget for WordPress
 
 Not sure when you’re ovulating? Use this free ovulation calculator to estimate your most fertile days and know when you are most likely to conceive.
 
