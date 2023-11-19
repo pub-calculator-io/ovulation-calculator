@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Ovulation Calculator by www.calculator.io
+Plugin Name: CI Ovulation calculator
 Plugin URI: https://www.calculator.io/ovulation-calculator/
 Description: Not sure when you’re ovulating? Use this free ovulation calculator to estimate your most fertile days and know when you are most likely to conceive.
 Version: 1.0.0

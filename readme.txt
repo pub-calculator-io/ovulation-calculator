@@ -1,4 +1,4 @@
-=== Ovulation Calculator by www.calculator.io ===
+=== CI Ovulation calculator ===
 Contributors: calculatorio
 Tags: ovulation calculator, fertile days, menstrual cycle, fertility calculator, conception calculator, pregnancy planning, ovulation prediction, pregnancy calculator, menstrual period, ovulation date
 Requires at least: 5.0
