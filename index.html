@@ -45,7 +45,7 @@
                 		</label>
                 	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col ">
+                		<label class="input col pregnancy-calculator,conception-date-calculator,period-calculator,due-date-calculator">
                 			<p class="input__title">Average Cycles Length</p>
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row " tabindex="0">
@@ -128,7 +128,7 @@
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  " >
                 
                 
-                		<button class="system-switcher" onclick="toggleSystem(this)">
+                		<button class="system-switcher" onclick="toggleSystem(this)" aria-label="Switch System">
                 			<div class="system-switcher__circle"></div>
                 			<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 	<path d="M10.5 9.5H10C9.44772 9.5 9 9.05228 9 8.5V2.5M4.5 2.5H3.5C2.94772 2.5 2.5 2.94772 2.5 3.5L2.5 9.5M7.5 4.5L10.5 4.5M1.5 5.5L4.5 5.5" stroke="white" stroke-width="2" stroke-linecap="round"></path>
@@ -149,15 +149,17 @@
                 		</script>
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
-                	<link rel="stylesheet" href="./assets/css/air-datepicker.css" />
-                	<script type="text/javascript" src="./assets/js/lib/air-datepicker.js" id="datepicker_script"></script>
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                	<link rel="stylesheet" href="./assets/css/air-datepicker.min.css" defer />
+                	<script type="text/javascript" src="./assets/js/lib/air-datepicker.js" id="datepicker_script" defer></script>
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -172,12 +174,11 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<div class="calculator-result__col calculator-result__col--ovulation">
 		<div class="result-table__wrapper result-table__wrapper--ovulation">
-			<table class="result-table">
+			<table class="result-table animate">
 				<thead>
 				<tr>
 					<th class="semibold">Ovulation Window</th>
@@ -205,7 +206,7 @@
 			</table>
 		</div>
 		<div class="col result-age result-age--small result-age--range result-start-date">
-			<p class="date-title"><span class="date-title date-title--date">Jun 2023<span></span></span></p>
+			<p class="date-title"><span class="date-title date-title--date animate">Jun 2023<span></span></span></p>
 			<div>
 				<p>M</p>
 				<p>T</p>
@@ -215,7 +216,7 @@
 				<p>S</p>
 				<p>S</p>
 			</div>
-			<div class="result-age--days">
+			<div class="result-age--days animate">
 				<p class="next">29</p>
 				<p class="next">30</p>
 				<p class="next">31</p>
@@ -276,7 +277,7 @@
 				<th class="short">Due Date</th>
 			</tr>
 			</tbody>
-			<tbody id="next-6-cycles">
+			<tbody id="next-6-cycles" class="animate">
 			<tr>
 				<td>1</td>
 				<td class="short">Jun 1, 2023</td>

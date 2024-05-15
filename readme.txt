@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Ovulation Calcu
 == Screenshots ==
 
 1. The Ovulation Calculator Input Form.
-2. The Ovulation Calculator Calculation Results.
 
 == Installation ==
 
